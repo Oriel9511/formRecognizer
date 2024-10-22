@@ -1,0 +1,21 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "AzureBlobStorageEndpoint": "https://someblob.blob.core.windows.net/",
+  "AzureFormRecognizerServiceKey": "kjh23k4j23k4jkj234kj23n44m",
+  "AzureFormRecognizerServiceEndpoint": "https://formrecognizerservice.cognitiveservices.azure.com/",
+  "ModelName": "model-name",
+  "PatientModel": "other-model",
+  "GeneralModel": "prebuilt-document",
+  "LogsheetModel": "other-model",
+  "PrebuiltCardModel": "prebuilt-businessCard",
+  "InventoryLogsModel": "other-model",
+  "ContainerName": "blob-container-name",
+  "AzureBlobStorageSasUrl": "sas-url",
+  "AzureBlobStorageSasToken": "token"
+}

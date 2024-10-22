@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Growth-Strategy-Form-Recognizer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Growth-Strategy-Form-Recognizer.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\images\\IMG_2516.jpg",
+      "PackagePath": "staticwebassets\\images\\IMG_2516.jpg"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\images\\business_card_example.jpg",
+      "PackagePath": "staticwebassets\\images\\business_card_example.jpg"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\images\\image_67172865.jpg",
+      "PackagePath": "staticwebassets\\images\\image_67172865.jpg"
+    },
+    {
+      "Id": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\wwwroot\\js\\tableToExcel.js",
+      "PackagePath": "staticwebassets\\js\\tableToExcel.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Growth-Strategy-Form-Recognizer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Growth-Strategy-Form-Recognizer.props",
+      "PackagePath": "build\\Growth-Strategy-Form-Recognizer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Growth-Strategy-Form-Recognizer.props",
+      "PackagePath": "buildMultiTargeting\\Growth-Strategy-Form-Recognizer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Growth-Strategy-Form-Recognizer.props",
+      "PackagePath": "buildTransitive\\Growth-Strategy-Form-Recognizer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

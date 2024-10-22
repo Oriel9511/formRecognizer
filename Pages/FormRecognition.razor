@@ -1,0 +1,136 @@
+﻿@page "/form"
+@using Growth_Strategy_Form_Recognizer.Data
+@inject IDataStorage DataStorage;
+@inject IEnumerable<IFormAnalysis> FormAnalyses;
+
+<div style="position: relative; height: 100vh;top: 0" xmlns="http://www.w3.org/1999/html">
+    <label for="miInputFile" class="btn btn-primary @_disableLoadBtn">
+        @if (_loading == "Loading...")
+        {
+            <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+            <span>Loading...</span>
+        }
+        else
+        {
+            <span>Select File</span>
+        }
+    </label>
+    <InputFile id="miInputFile" OnChange="@LoadFile" style="display: none"/>
+    <div style="position: absolute; left: 0; width: 50%; max-height: 100%; overflow-scrolling: auto; top: 4vh">
+        @if (_data != null)
+        {
+            <div style="background: #bcbebf; max-height: 100vh" class="mt-2 overflow-scroll">
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <th>Employer</th>
+                        <td>@_data.Employer</td>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <td>@_data.Name</td>
+                    </tr>
+                    <tr>
+                        <th>Position</th>
+                        <td>@_data.Position</td>
+                    </tr>
+                    <tr>
+                        <th>Mailing Address</th>
+                        <td>@_data.MailingAddress</td>
+                    </tr>
+                    <tr>
+                        <th>City</th>
+                        <td>@_data.City</td>
+                    </tr>
+                    <tr>
+                        <th>Province</th>
+                        <td>@_data.Province</td>
+                    </tr>
+                    <tr>
+                        <th>Postal Code</th>
+                        <td>@_data.PostalCode</td>
+                    </tr>
+                    <tr>
+                        <th>Birthday</th>
+                        <td>@_data.Birthdate</td>
+                    </tr>
+                    <tr>
+                        <th>Social Insurance Number</th>
+                        <td>@_data.SocialInsuranceNumber</td>
+                    </tr>
+                    <tr>
+                        <th>Start Date</th>
+                        <td>@_data.StartDate</td>
+                    </tr>
+                    <tr>
+                        <th>Federal TD1 Amount</th>
+                        <td>@_data.FederalTD1Amount</td>
+                    </tr>
+                    <tr>
+                        <th>Provincial TD1 Amount</th>
+                        <td>@_data.ProvincialTD1Amount</td>
+                    </tr>
+                    <tr>
+                        <th>Basic For Both</th>
+                        <td>@(_data.BasicForBoth ? "Yes" : "No")</td>
+                    </tr>
+                    <tr>
+                        <th>Pay Rate</th>
+                        <td>@_data.PayRate</td>
+                    </tr>
+                    <tr>
+                        <th>Salary</th>
+                        <td>@_data.Salary</td>
+                    </tr>
+                    <tr>
+                        <th>Is Salary</th>
+                        <td>@(_data.IsSalary ? "Yes" : "No")</td>
+                    </tr>
+                    <tr>
+                        <th>Is Hourly</th>
+                        <td>@(_data.IsHourly ? "Yes" : "No")</td>
+                    </tr>
+                    <tr>
+                        <th>Department</th>
+                        <td>@_data.Department</td>
+                    </tr>
+                    <tr>
+                        <th>Pay Frequency</th>
+                        <td>@_data.PayFrequency</td>
+                    </tr>
+                    <tr>
+                        <th>Vacations Percentage</th>
+                        <td>@_data.VacationsPercentage</td>
+                    </tr>
+                    <tr>
+                        <th>Is Accrued</th>
+                        <td>@(_data.IsAccrued ? "Yes" : "No")</td>
+                    </tr>
+                    <tr>
+                        <th>Is Pay</th>
+                        <td>@(_data.IsPay ? "Yes" : "No")</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>@_data.Email</td>
+                    </tr>
+                    <tr>
+                        <th>Date</th>
+                        <td>@_data.Date</td>
+                    </tr>
+                    <tr>
+                        <th>Cheque Number</th>
+                        <td>@_data.ChequeNumber</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+    @if (_fileUrl != null)
+    {
+        <div style="position: absolute; right: 0; width: 50%; height: 100%; top: 4vh">
+            <iframe src="@_fileUrl" type="application/pdf" style="width: 100%; height: 100%"></iframe>
+        </div>
+    }
+</div>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Growth-Strategy-Form-Recognizer.props" />
+</Project>

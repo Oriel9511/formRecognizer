@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\Growth-Strategy-Form-Recognizer.csproj": {}
+  },
+  "projects": {
+    "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\Growth-Strategy-Form-Recognizer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\Growth-Strategy-Form-Recognizer.csproj",
+        "projectName": "Growth-Strategy-Form-Recognizer",
+        "projectPath": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\Growth-Strategy-Form-Recognizer.csproj",
+        "packagesPath": "C:\\Users\\oriel\\.nuget\\packages\\",
+        "outputPath": "D:\\Bizdirect\\AI PLAYGROUND\\dotNet\\FormRecognizer\\Growth-Strategy-Form-Recognizer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\oriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.AI.FormRecognizer": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.18.0, )"
+            },
+            "BlazorInputFile": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

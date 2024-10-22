@@ -1,0 +1,63 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">Menu</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div 
+    class="@NavMenuCssClass nav-scrollable" 
+    @onclick="ToggleNavMenu"
+    style="max-height: 94vh"
+    >
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Get Started
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="form">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Employee Demo
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="patient-form-recognition">
+                <span class="oi oi-list" aria-hidden="true"></span> Patient Demo
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="general-form">
+                <span class="oi oi-menu" aria-hidden="true"></span> General Demo
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/logsheet">
+                <span class="oi oi-document" aria-hidden="true"></span> Logsheet Demo
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/business-card">
+                <span class="oi oi-credit-card" aria-hidden="true"></span> Business Card Demo
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/inventory-logs">
+                <span class="oi oi-grid-three-up" aria-hidden="true"></span> Inventory Logs Demo
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

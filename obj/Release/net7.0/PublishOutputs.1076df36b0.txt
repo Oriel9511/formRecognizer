@@ -1,0 +1,15 @@
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\Growth-Strategy-Form-Recognizer.exe
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\appsettings.Development.json
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\appsettings.json
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\Growth-Strategy-Form-Recognizer.dll
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\Growth-Strategy-Form-Recognizer.deps.json
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\Growth-Strategy-Form-Recognizer.runtimeconfig.json
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\Growth-Strategy-Form-Recognizer.pdb
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\Azure.AI.FormRecognizer.dll
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\Azure.Core.dll
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\Azure.Storage.Blobs.dll
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\Azure.Storage.Common.dll
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\BlazorInputFile.dll
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\System.IO.Hashing.dll
+C:\Users\oriel\AppData\Local\Temp\rider-publish4539609823288851890\System.Memory.Data.dll

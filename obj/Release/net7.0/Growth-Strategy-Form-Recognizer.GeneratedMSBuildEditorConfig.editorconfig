@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Growth_Strategy_Form_Recognizer
+build_property.RootNamespace = Growth_Strategy_Form_Recognizer
+build_property.ProjectDir = C:\Users\oriel\Desktop\AI PLAYGROUND\dotNet\FormRecognizer\Growth-Strategy-Form-Recognizer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\oriel\Desktop\AI PLAYGROUND\dotNet\FormRecognizer\Growth-Strategy-Form-Recognizer
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/BusinessCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVzaW5lc3NDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/DocQuery.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jUXVlcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/FormRecognition.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybVJlY29nbml0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/GeneralFormRecognition.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VuZXJhbEZvcm1SZWNvZ25pdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/InventoryLogs.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3J5TG9ncy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/Logsheet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nc2hlZXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/PatientFormRecognition.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudEZvcm1SZWNvZ25pdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ahg2sgravq
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-o94rcmupol
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oriel/Desktop/AI PLAYGROUND/dotNet/FormRecognizer/Growth-Strategy-Form-Recognizer/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

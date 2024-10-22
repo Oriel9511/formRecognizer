@@ -1,0 +1,178 @@
+﻿@page "/inventory-logs"
+@using Growth_Strategy_Form_Recognizer.Data
+@using System.Reflection
+@inject IDataStorage DataStorage;
+@inject IEnumerable<IFormAnalysis> FormAnalyses;
+@inject IJSRuntime JSRuntime
+
+
+<div style="position: relative; height: 100vh;top: 0" xmlns="http://www.w3.org/1999/html">
+
+    <div class="d-flex gap-3">
+        <div>
+            <label for="miInputFile" class="btn btn-primary @_disableLoadBtn">
+                @if (_loading == "Loading...")
+                {
+                    <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                    <span>Loading...</span>
+                }
+                else
+                {
+                    <span>Select File</span>
+                }
+            </label>
+            <InputFile id="miInputFile" OnChange="@LoadFile" style="display: none"/>
+        </div>
+        @if (_data != null)
+        {
+            <button class="btn btn-success" @onclick="ExportToExcel">Export to Excel</button>
+        }
+    </div>
+    <div style="position: absolute; left: 0; width: 50%; max-height: 100%; overflow-scrolling: auto; top: 4vh">
+        @if (_data != null)
+        {
+            <div style="background: #bcbebf; max-height: 100vh" class="mt-2 overflow-scroll">
+                <table class="table table-bordered" id="inventoryLogs">
+                    <tbody>
+                        <tr>
+                            <th>Date</th>
+                            <td>@_data.Date</td>
+                        </tr>
+                        <tr>
+                            <th>Operator</th>
+                            <td>@_data.Operator</td>
+                        </tr>
+                        <tr>
+                            <th>CT</th>
+                            <td>@_data.CT</td>
+                        </tr>
+                        <tr>
+                            <th>Note</th>
+                            <td>@_data.Note</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered" id="productsInventoryLogs">
+                    <tbody>
+                    <tr>
+                        <th>Product</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>Required</th>
+                        <th>InTanks</th>
+                        <th>Loaded</th>
+                        <th>OnDeck</th>
+                        <th>Total</th>
+                    </tr>
+                    @foreach (var row in _data.Table)
+                    {
+                        <tr>
+                            @{
+                                row.TryGetValue("Product", out string? product);
+                                <td>@(product ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("1", out string? y1);
+                                <td>@(y1 ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("2", out string? y2);
+                                <td>@(y2 ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("3", out string? y3);
+                                <td>@(y3 ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("4", out string? y4);
+                                <td>@(y4 ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("5", out string? y5);
+                                <td>@(y5 ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("6", out string? y6);
+                                <td>@(y6 ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("7", out string? y7);
+                                <td>@(y7 ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("Required", out string? required);
+                                <td>@(required ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("InTanks", out string? inTanks);
+                                <td>@(inTanks ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("Loaded", out string? loaded);
+                                <td>@(inTanks ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("OnDeck", out string? onDeck);
+                                <td>@(onDeck ?? "")</td>
+                            }
+                            @{
+                                row.TryGetValue("Total", out string? total);
+                                <td>@(total ?? "")</td>
+                            }                             
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="d-flex mt-4 gap-2 w-auto">
+                <img 
+                    class="rounded-3"
+                    style="filter: fade(5)"
+                    src="images/IMG_2516.jpg" alt="Inventory Log image"/>
+                <h6 class="text-secondary align-self-end">Example Document</h6>
+            </div>
+            
+        }
+    </div>
+    @if (_fileUrl != null)
+    {
+        var uri = new Uri(_fileUrl);
+        var fileName = Path.GetFileName(uri.LocalPath);
+        var extension = Path.GetExtension(fileName);
+        var mimeType = "";
+        
+        switch (extension)
+        {
+            case ".jpg":
+            case ".jpeg":
+            case ".png":
+            case ".gif":
+                mimeType = "image/" + extension.TrimStart('.');
+                break;
+            case ".pdf":
+                mimeType = "application/pdf";
+                break;
+        }
+
+        <div style="position: absolute; right: 0; width: 50%; height: 100%; top: 4vh">
+            <iframe src="@_fileUrl" type="@mimeType" style="width: 100%; height: 100%"></iframe>
+        </div>
+    }
+</div>
+
+@code
+{
+    private async Task ExportToExcel()
+    {
+        var tableIDs = new { inventoryLogs = "inventoryLogs", productsInventoryLogs = "productsInventoryLogs" };
+        await JSRuntime.InvokeVoidAsync("exportTablesToExcel", tableIDs);
+    }
+}
